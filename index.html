@@ -1,1 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio & Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000000;
+        }
+        header {
+            background-color: #0033cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            background-color: #000000;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #0033cc;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .about, .portfolio, .resume, .contact {
+            margin-bottom: 50px;
+        }
+        .about h2, .portfolio h2, .resume h2, .contact h2 {
+            color: #0033cc;
+        }
+        .portfolio img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: #0033cc;
+            text-decoration: none;
+        }
+        .social-icons a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>Advertising Student | Fashion Enthusiast | Creative Thinker</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm currently a second-year advertising student at the University of Texas at Austin. I have a passion for fashion, social media, and all things creative. My experience spans from creating digital visuals for marketing campaigns to exploring new trends in the fashion industry. This site is a showcase of my journey, my projects, and my professional aspirations. Feel free to explore!</p>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <h2>Portfolio</h2>
+            <div>
+                <img src="your-image-1.jpg" alt="Project 1">
+                <img src="your-image-2.jpg" alt="Project 2">
+                <img src="your-image-3.jpg" alt="Project 3">
+                <!-- Add more images or project details as needed -->
+            </div>
+        </section>
+
+        <section id="resume" class="resume">
+            <h2>Resume</h2>
+            <p><strong>Education:</strong></p>
+            <ul>
+                <li>University of Texas at Austin – Advertising Major (Second Year)</li>
+            </ul>
+            <p><strong>Experience:</strong></p>
+            <ul>
+                <li>Intern at Austin Cardiology Clinic – Marketing and Advertising Projects</li>
+                <li>Mentee at Ollie Marketing – Social Media and Pinterest Strategy</li>
+            </ul>
+            <p><strong>Skills:</strong></p>
+            <ul>
+                <li>Creative Marketing</li>
+                <li>Social Media Management (Pinterest, Instagram)</li>
+                <li>Graphic Design</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to reach out, feel free to contact me via email or connect with me on social media!</p>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+                <a href="https://instagram.com/yourprofile" target="_blank">Instagram</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Name | Designed with passion and creativity</p>
+    </footer>
+
+</body>
+</html>
 
